@@ -12,7 +12,7 @@ public class WoodItem {
 	String type;
 	Double baseDeliveryTime;
 	Double price;
-	
+	Double amount;
 	/**
 	 * Default constructor 
 	 */
@@ -20,6 +20,7 @@ public class WoodItem {
 		this.type = "Empty";
 		this.baseDeliveryTime = 0.0;
 		this.price = 0.0;
+		this.amount = 0.0;
 	}
 	
 	/**
@@ -28,10 +29,11 @@ public class WoodItem {
 	 * @param daseDeliveryTime base delivery time
 	 * @param price price per Bare Foot
 	 */
-	public WoodItem(String type, Double daseDeliveryTime, Double price) {
+	public WoodItem(String type, Double baseDeliveryTime, Double price, Double amount) {
 		this.type = type;
-		this.baseDeliveryTime = daseDeliveryTime;
+		this.baseDeliveryTime = baseDeliveryTime;
 		this.price = price;
+		this.amount = amount;
 	}
 
 	/**
@@ -48,7 +50,7 @@ public class WoodItem {
 	 * 
 	 * @return the baseDeliverytime
 	 */
-	public Double getDaseDeliveryTime() {
+	public Double getBaseDeliveryTime() {
 		return baseDeliveryTime;
 	}
 
@@ -60,6 +62,11 @@ public class WoodItem {
 	 */
 	public Double getPrice() {
 		return price;
+	}
+	
+	public double getAmount(){
+		
+		return amount;
 	}
 
 	/* (non-Javadoc)
