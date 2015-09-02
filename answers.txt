@@ -1,0 +1,31 @@
+(a) 8 commits have been done to the repository.
+
+(b) The file .gitignore was modified last on August 20,2015 at 18:05:41.
+
+(c) Since no commit was done on 08/21/2015, it is not possible to checkout the history of repository on that date. But files after the last commit on Aug 20,2015 at 18:05:41 will still be there in the repository on 08/21/2015, as no commits were performed on 08/21/2015 and the next commit was performed on Aug 23,2015 at 12:09:40.
+
+The list of the files is:
+
+ .
+ ..
+ .classpath
+ .git
+ .gitattributes
+ .gitignore
+ .project
+ README.txt.txt
+ src
+
+(d) The file src/model/WoodItem.java was modified 2 times, on Aug 24,2015 at 12:07:05 and Aug 20, 2015 at 18:05:41. The file src/controller/HardwoodSeller.java was modified only once, on Aug 20,2015 at 18:05:41.
+
+(e) git log: It enumerates the history of commits, starting with the most recent commit at the top.
+
+git status: It shows the current version control status of a project. It lets us know what branch we are on and lets us know if there are any changes to commit. Also, it shows information about the files that the git is tracking and lets the user know about any untracked files and assists the user with some commands so that the git can track the untracked files.
+
+
+
+(f) git log -- main.java
+
+(g) git log --grep="transaction"
+
+(h) git log --author="Lauren" --after="01/05/2014"  --before="06/14/2015"
